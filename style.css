@@ -1,0 +1,47 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+body {
+	margin: 0;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.bgimg {
+	min-height: 720px;
+	background-image: url("img/layer-city.png"), url("img/pattern.png");
+	background-repeat: no-repeat, repeat;
+	background-size: contain;
+	background-position: bottom	;
+}
+.lii {
+	list-style-type: none;
+}
+.aa:hover {
+	background-color: #2500F8;
+	padding: 8px;
+	border-radius: 15px;
+	border: none;
+}
+.pp {
+	background-color: #E1E9EC;
+}
+.imgg {
+	width: 350px;
+}
+.phone {
+	width: 480px;
+}
+.borde {
+	border-left: 2px solid grey;
+	height: 100px;
+}
+.enii {
+	width: 580px;
+}
